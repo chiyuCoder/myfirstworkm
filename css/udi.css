@@ -1,0 +1,151 @@
+/*全局样式*/
+*{margin:0;border:0;padding: 0;list-style: none;}
+a{text-decoration: none;}
+.horizLi:after{content:"";display: block;visibility: hidden;clear: both;}
+.horizLi li{float:left;}
+.horli:after{content:"";clear:both;}
+.horli li{float:left;}
+html,body{height:100%;font-family: '楷体','黑体','宋体',monospace,Arial,sans-serif;}
+.mySection{height:100%;width:100%;}
+/*id=hedader*/
+#header{background:rgba(100,100,100,0.6);position:fixed;top:0;left:0;z-index:100;width:100%;
+    filter:alpha(opacity=60);}
+.herheader{height:90px;background: lightblue;}
+.serheader{height:50px;}
+.nav{width:80%;min-width:620px;height:100%;margin:0 auto;}
+.nav:after{content:"";display: block;visibility: hidden;clear: both;}
+.logoContainer{width:10%;height:100%;float:left;}
+.logoContainer img{width:100%;height:100%;}
+.trueNav{width:60%;float:left;}
+#header .horizLi{margin:0 auto;width:570px}
+#header .horizLi li{padding: 0 15px;font-size:20px;}
+#header .horizLi li a{color:black;display: block;}
+#header .horizLi li a:hover{border-top-width:3px;border-top-color: darkorange;border-top-style: solid;color:#f60;}
+.herheader .horizLi li{line-height: 90px;}
+.herheader .horizLi li a:hover{line-height:87px;}
+#header .connectUs .QQnum{float:right;color:#fa2;font-weight: 600;}
+.herheader .connectUs .QQnum{line-height:90px;font-size:1.3em;letter-spacing: -4px;}
+.herheader .QQLogo{height: 35px;width:35px;margin-top:24px;margin-right:20px;}
+.serheader .horizLi li{line-height: 50px;}
+.serheader .horizLi li a:hover{line-height:47px;}
+.serheader .connectUs .QQnum{line-height:50px;}
+.serheader .connectUs .QQLogo{height: 35px;width:35px;margin-top:10px;}
+.connectUs{float:left;width:30%;text-align: right;}
+.connectUs:after{content:"";display: block;visibility: hidden;clear: both;}
+.QQLogo{float:right;background-image: url(../image/icons1.png);background-position:5px 0; }
+/*class=part1*/
+.part1{background:url(../image/nbg11.jpg);background-size: 100% 100%;display: table;}
+.session{display: table-cell;vertical-align: middle;text-align: center;}
+.part1 .session .content{height:560px;width: 1200px;background: rgb(255,150,0); background: rgba(255,150,0,0.6);margin:0 auto;}
+.content h2{color:black;font-size:5em;font-family:Times, Arial;padding-top:120px;word-spacing: 20px;font-weight: 200;}
+.content h3{font-size:4em;margin: 40px auto;font-family: '黑体';letter-spacing: 10px;}
+.link{height:75px;width:210px;border:2px solid white;margin:0 auto;font-size:60px;line-height:75px;}
+.link a{color:white;font-family: '宋体';}
+.link a:hover{background: #f60;background: linear-gradient(to top right,#f60 10%,#f06 50%,#e06 70%,white 100%); color:black;display: block;height:100%;width:100%;}
+/*class=part2*/
+.part2{position: relative;background-image:url(../image/nbg12.jpg);background-size: 100% 100%;}
+.sess{background:rgb(255,150,0);background:  linear-gradient(to right,#cea330,#e4cd8d);padding: 70px 20px 70px 40px;position: absolute;top:30%;right:0px;}
+.horizDiv:after{content:"";clear: both;display: block;height:0;}
+.parTil{float:left;width:440px;text-align:center;}
+.parTil h2{font-size:70px;font-family: '宋体';line-height:90px;}
+.parTil h4{line-height:60px;font-size:40px;letter-spacing: -1px;font-weight:100;color:#333;font-family:monospace; }
+.parTil h3{font-size:45px;letter-spacing: -3px;word-spacing:12px;font-family:monospace;}
+.whiteDl{float:left;margin-left:20px;color:white;width:300px;}
+.whiteDl ol li{list-style-type: decimal;list-style-position: inside;font-size:30px;margin:10px 0;font-family:'宋体';}
+.whiteD{float: left;margin-left: 10px;}
+.whiteD li{font-size:30px;margin:10px 0;font-family:'宋体';color:white;}
+.txtC{text-align: center;font-size:30px;color:aliceblue;margin:30px 0;}
+
+
+
+.partop {
+    position: absolute;top:0;left:20%;display: block;
+}
+/*class=part3*/
+.part3 {
+    background-image: url(../image/blockchain13a.jpg);background-size: 100% 100%;text-align: center;position: relative;
+}
+.part3 .dload{padding-top:250px;}
+.part3 .dload h2{font-family: sans-serif;color:coral;font-size:42px;word-spacing: -12px;line-height:90px;}
+.part3 .dload h3{font-size: 32px;}
+.part3 .horizLi {margin:30px auto;width:430px;}
+.part3 .horizLi li{width:125px;margin-right:25px;}
+.part3 .horizLi .lastChild{margin-right:0;}
+.part3 .horizLi li div{height:90px;width:90px;transition:all 1s ease;}
+.part3 .horizLi li div:hover{background-size: 100% 100%;border:0;border-radius: 0;}
+.part3 .horizLi li p{margin-top:30px;width:90px;}
+.part3 .horizLi li p a{color:black;}
+.part3 .horizLi li p a:hover{text-decoration:underline;}
+.win {background-image: url(../image/dload-win.png);background-size:60% 60%;background-position:40% 40%;background-repeat:no-repeat;border:3px solid #f50;border-radius:100%;}
+.apk {background-image: url(../image/dload-apk.png);background-size:60% 60%;background-position:40% 40%;background-repeat:no-repeat;border:3px solid #f50;border-radius:100%;}
+.ios {background-image: url(../image/dload-ios.png);background-size:60% 60%;background-position:40% 40%;background-repeat:no-repeat;border:3px solid #f50;border-radius:100%;}
+/*class=part4*/
+.part4{position: relative;background-image:url(../image/wallpaper4.jpg)}
+.cooper{padding-top: 120px;text-align: center;}
+.cooper h2{font-family: sans-serif;color:coral;font-size:42px;word-spacing: -12px;line-height:90px;}
+.cooper h3{font-size: 32px;}
+.part4 .cooper .horli{width:790px;margin:30px auto;}
+.part4 .cooper .horli li{padding: 50px 30px;font-size:32px;color:#c6c6c6;border-right:1px dotted #c6c6c6;border-bottom:1px dotted #c6c6c6;transition: all 1s ease;}
+.part4 .cooper .horli li:hover{transform:translate(0,20px);color:darkgoldenrod;}
+/*class=part5*/
+.part5{background-image: url(../image/wallpaper5.jpg);background-size: 100% 100%;text-align: center;position: relative;}
+.part5 .horli{width:480px;margin: 50px auto;}
+.part5 .horli li{margin:0 40px;}
+.baidu{background: url(../image/words.png) -137px -638px no-repeat;height:60px;width:60px;margin:40px auto;position: relative;}
+.cl:hover{height:135px;width:135px;background:url(../image/words.png) 0px -620px no-repeat; position:  absolute;top:-40px;left:-30px;transition:all 2s cubic-bezier(0.1,0.6,0.2,0.5);clip:rect(0 0 0 0);}
+.cl{height:135px;width:135px;background:url(../image/words.png) 0px -620px no-repeat; position:  absolute;top:-40px;left:-30px;clip:rect(0px 140px 140px 0px);}
+.qqgroup{background: url(../image/words.png) -365px -638px no-repeat;height:60px;width:60px;margin:40px auto;position:relative;}
+.offline{background: url(../image/words.png) -137px -710px no-repeat;height:60px;width:60px;margin:40px auto;position:relative;}
+.part5 .horli li dl dt{font-weight:700;font-family: '黑体';line-height: 40px;}
+.part5 .horli li dl dd{line-height:30px;}
+/*class=part6*/
+.part6{position: relative;background: url(../image/wallpaper8.jpg) 100% 100% no-repeat;}
+.contact{width:40%;min-width:600px;margin:0 auto;padding-top: 250px;padding-bottom: 100px;border-bottom:1px solid #999 ;}
+.contact:after{content:"";clear: both;display: block;height:0;}
+.leftpart{float:left;}
+.rightpart{float:right;}
+.contact h2{font-size:28px;color:#f90;}
+.contact dl{margin:20px auto;}
+.contact dl:after{content:"";clear: both;display: block;height:0;}
+.contact dl dt{float:left;}
+.contact dl dd{float: left;}
+@media screen and (max-width:1370px) {
+    #header .connectUs .QQnum{
+        display: none;
+        width:32px;height:370px;
+        position: fixed;top:50px;right:0;z-index:10;
+        font-size: 32px;
+        float:none;
+        text-align: center;line-height: 29px;
+        background: #555;opacity: 0.6;
+        overflow: hidden;
+        padding:20px 10px 10px 0;
+        letter-spacing: 0;
+    }
+    .QQLogo{margin-right:0px;}
+    .QQlogo:hover #header .connectUs .QQnum{display: inline-block;}
+    .trueNav{min-width:582px;}
+    .connectUs{width:40px;}
+    .part1 .session .content{width:720px;height:auto; padding:20px 0;}
+    .part1 .session .content h2{padding-top: 0; line-height:65px;font-size:48px;}
+    .part1 .session .content h3{font-size:40px;}
+    .sess{padding: 20px; }
+    .whiteDl ol li{font-size:16px;font-family:'楷体';}
+    .whiteD ol li{font-size:16px;font-family:'楷体';}
+    .txtC{font-size:16px;margin:20px 0;}
+    .part4 .cooper .horli{width:520px;}
+}
+
+.act {
+    background: #995;filter: alpha(opacity=60);opacity: 0.6;
+}
+.act:hover{background-color:aqua;}
+
+.fakeLi{float:left;}
+.fakeLi a{color:black;display: block;line-height:50px;font-size:20px;
+    padding: 0 15px;
+}
+.fakeLi a:hover{border-top-width:3px;border-top-color: darkorange;border-top-style: solid;color:#f60;}
+.herheader .fakeLi a{line-height:90px;}
+.platformA{color: #c6c6c6;}
+.platformA:hover{color:darkgoldenrod;}
